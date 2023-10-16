@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(152, 164, 234);
+}
+
+header{
+    background-color: rgb(63, 63, 165);
+    color: white;
+    text-align: center;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 20% 40% 26%;
+    grid-gap: 7%;
+    background-color: rgb(182, 218, 246);
+    padding: 2%;
+}
+.body h2{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(91, 97, 141);
+    padding: 2%;
+}
+
+.nav{
+    background-color: rgb(142, 146, 189);
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 17em;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(2, 2, 15);
+    font-size: 2em;
+    text-align: center;
+    margin: 2%;
+   
+}
+
+.nav a:hover{
+    background-color: rgb(2, 2, 15);
+    color: white;
+    border: 2px solid white;
+}
+
+.imgs{
+    background-color: rgb(129, 129, 166);
+    color: white;
+}
+
+
+.imgs{
+    padding: 2%;
+}
+#images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1%;
+    margin-top: 2%;
+}
+#images img{
+    border: 2px solid white;
+    padding: 1%;
+    height: 7em;
+    margin-top: 2%;
+}
+
+.rightnote{
+    background-color: lightgray;
+    padding: 2.5%;
+}
+.rightnote p{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 2%;
+    padding: 3%;
+}
+footer{
+    background-color: rgb(2, 2, 15);
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+footer p{
+    letter-spacing: 2px;
+}
